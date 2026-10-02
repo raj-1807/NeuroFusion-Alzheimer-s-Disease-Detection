@@ -1,0 +1,17 @@
+{
+  "n_modalities": 3,
+  "hidden_dim": 32,
+  "modality_order": [
+    "P_CNN_MRI",
+    "P_XGBoost_Clinical",
+    "P_PET_FDGTau"
+  ],
+  "pet_num_classes": 3,
+  "test_accuracy": 87.31,
+  "test_auc": 0.9842,
+  "mean_alpha": [
+    0.6738803904532777,
+    0.00011683045456165457,
+    0.3260027832283724
+  ]
+}
