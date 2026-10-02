@@ -8,18 +8,10 @@ __pycache__/
 venv/
 .venv/
 env/
-.env/
 
 # Environment variables and local config
 .env
 *.env
-
-# Machine learning model artifacts
-models/*.h5
-models/*.pth
-models/*.pkl
-models/*.joblib
-models/*.onnx
 
 # Logs and temporary files
 *.log
@@ -41,3 +33,6 @@ desktop.ini
 # Editor settings
 .vscode/
 .idea/
+
+# Jupyter
+.ipynb_checkpoints/

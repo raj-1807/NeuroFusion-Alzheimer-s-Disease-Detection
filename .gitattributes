@@ -1,0 +1,11 @@
+# Linguist overrides — prevent HTML files from dominating language stats
+# This tells GitHub the frontend and interview guide are documentation,
+# so the repo correctly shows Python as the primary language.
+frontend_simple.html linguist-documentation
+NeuroFusion_AD_Interview_Guide.html linguist-documentation
+# Mark sample data directories as vendored (excluded from stats)
+mri/** linguist-vendored
+fdg/** linguist-vendored
+tau/** linguist-vendored
+# Git LFS tracking for large model files
+models/cnn_binary_model.h5 filter=lfs diff=lfs merge=lfs -text
